@@ -1,0 +1,9 @@
+*.json
+*.txt
+.vscode
+accounts.json
+chromedriver.exe
+Profiles
+__pycache__
+run.sh
+.venv

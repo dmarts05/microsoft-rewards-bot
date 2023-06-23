@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "msr-bot"
+version = "2.1.0"
+description = ""
+authors = ["dmarts05 <dmarts05@estudiantes.unileon.es>"]
+readme = "README.md"
+packages = [{include = "msr_bot"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <4.0"
+certifi = "^2023.5.7"
+chardet = "^5.1.0"
+idna = "^3.4"
+requests = "^2.31.0"
+selenium = "^4.9.1"
+selenium-stealth = "^1.0.6"
+urllib3 = "^2.0.2"
+ipapi = "^1.0.4"
+func-timeout = "^4.3.5"
+random-word = "^1.0.11"
+pyyaml = "^6.0"
+pyotp = "^2.8.0"
+notifiers = "^1.3.3"
+pyvirtualdisplay = "^3.0"
+webdriver-manager = "^3.8.6"
+names = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
